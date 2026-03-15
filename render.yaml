@@ -7,14 +7,8 @@ services:
       url: ghcr.io/mtvpls/moontvplus:latest
     envVars:
       - key: USERNAME
-        generateValue: true
-      - key: PASSWORD
-        generateValue: true
-      - key: NEXT_PUBLIC_STORAGE_TYPE
-        value: upstash
-      - key: UPSTASH_URL
         sync: false
-      - key: UPSTASH_TOKEN
+      - key: PASSWORD
         sync: false
       - key: NEXT_PUBLIC_SITE_NAME
         value: MoonTVPlus
